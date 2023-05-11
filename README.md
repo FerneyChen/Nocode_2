@@ -1,4 +1,3 @@
-##### <p style='text-align:center;font-size:19px;font-family:Monaco;font-weight:1;background-color:#66cccc;vertical-align:middle;padding:0px;margin-top:0px'>This_are_my_notes</p>
 ```                  
 //                ,dPYb,  ,dPYb,                                                                  
 //                IP'`Yb  IP'`Yb                                                                  
