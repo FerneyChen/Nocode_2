@@ -1,27 +1,49 @@
-body {
-  background: #1d1f20;
-}
-/* Basic styles */
 h1 {
 	position: relative;
 	float: left;
-	color: #d7b94c;
-	font-family: 'Inconsolata', Consolas, monospace;
+	color: #2fe8c3;
+	font-family: Verdana;
 	font-size: 4em;
-	margin:100px;
+	margin-left: 5%;
+  margin-top: 10%;
 }
 h1 span{
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: #1d1f20;
+	background: rgb(212, 7, 73);
 	width: 100%;
 	border-left: .1em solid transparent;
 	-webkit-animation: typing 3s steps(16) forwards,
 										 cursor 1s infinite;
-	animation: typing 3s steps(16) forwards,
-						 cursor 1s infinite;
+	animation: typing 2s steps(16) forwards,
+						 cursor 1s 2;
 }
+
+
+h2 {
+	position: relative;
+	float: left;
+	color: #2fe8c3;
+	font-family: Verdana;
+	font-size: 4em;
+	margin-top: 5%;
+  margin-left: 6%;
+}
+h2 span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgb(212, 7, 73);
+	width: 100%;
+	border-left: .1em solid transparent;
+	-webkit-animation: typing 3s steps(16) forwards,
+										 cursor 1s infinite;
+	animation: typing 2s steps(16) forwards,
+						 cursor 1s infinite;
+  animation-delay: 2.3s;
+}
+
 /* Animation */
 @-webkit-keyframes typing{
 	from { width: 100%;}
